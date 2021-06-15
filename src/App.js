@@ -2,7 +2,7 @@ import React from 'react';
 import Amplify from 'aws-amplify';
 import { AmplifyAuthenticator, AmplifySignUp, AmplifySignOut } from '@aws-amplify/ui-react';
 import { AuthState, onAuthUIStateChange } from '@aws-amplify/ui-components';
-import awsconfig from './aws-exports';
+//import awsconfig from './aws-exports';
 
 Amplify.configure({
     "aws_project_region": "ap-northeast-1",
