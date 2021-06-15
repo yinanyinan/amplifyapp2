@@ -1,0 +1,36 @@
+type Headers {
+	ContentType: String
+}
+
+type Mutation {
+	updateDB(pk: String, pass: String): String
+}
+
+type Query {
+	send: Return
+	test: Test
+}
+
+type Return {
+	statusCode: Int
+	headers: Headers
+	body: TransactionRespones
+}
+
+enum Test {
+	T1
+	T2
+
+}
+
+type TransactionRespones {
+	PK: Int
+	ID: String
+	Pass: String
+	message: String
+}
+
+schema {
+	query: Query
+	mutation: Mutation
+}
