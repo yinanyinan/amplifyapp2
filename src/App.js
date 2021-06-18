@@ -5,16 +5,17 @@ import { AuthState, onAuthUIStateChange } from '@aws-amplify/ui-components';
 //import awsconfig from './aws-exports';
 
 Amplify.configure({
-    "aws_project_region": "ap-northeast-1",
-    "aws_cognito_identity_pool_id": "ap-northeast-1:7268b741-cced-436f-ba3e-7b39dfa49999",
-    "aws_cognito_region": "ap-northeast-1",
-    "aws_user_pools_id": "ap-northeast-1_uyU3piIjK",
-    "aws_user_pools_web_client_id": "2889o4ett0c5t9e7sjqv4brs8m",
-    "oauth": {},
-    "aws_appsync_graphqlEndpoint": "https://ofjgtpqayjbdfgc2dfbt2gjao4.appsync-api.ap-northeast-1.amazonaws.com/graphql",
-    "aws_appsync_region": "ap-northeast-1",
-    "aws_appsync_authenticationType": "API_KEY",
-    "aws_appsync_apiKey": "da2-azoecr6horh5xcygblieemz47q"
+  "aws_project_region": "ap-northeast-1",
+  "aws_appsync_graphqlEndpoint": "https://mfdb7u5orzdrzpg6plhdnxl2zq.appsync-api.ap-northeast-1.amazonaws.com/graphql",
+  "aws_appsync_region": "ap-northeast-1",
+  "aws_appsync_authenticationType": "API_KEY",
+  "aws_appsync_apiKey": "da2-3vwigqlhpvcqxcnuia6q5gc6jm",
+  "aws_cognito_identity_pool_id": "ap-northeast-1:f7aa7223-6605-4cb8-afaf-f5f5b5b882a4",
+  "aws_cognito_region": "ap-northeast-1",
+  "aws_user_pools_id": "ap-northeast-1_pwMdc01vK",
+  "aws_user_pools_web_client_id": "56ono9malichau8g1tr7b3ojfr",
+  "oauth": {}
+    
 });
 
 const App = () => {
